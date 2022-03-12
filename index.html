@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gamination</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <h2 class="logo">Gaming with Budget</h2>
+          <div class="toggle"></div>
+        </header>
+        <video src="pexels-rodnae-productions-7914775.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>No Game</h2> 
+          <h3>No Life</h3>
+          <p>Gaming is life for the people in Gamination.But not every game is free.So the people at Gamination gathers all the epic offers that are on games at this website.
+            Grab thos epic offers now.
+          </p>
+          <a href="https://www.epicgames.com/site/en-US/home">Explore</a>
+        </div>
+        <ul class="social">
+          <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+          <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="https://store.steampowered.com/">Steam Offers</a></li>
+          <li><a href="https://www.epicgames.com/site/en-US/home">Epic Games</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <script> const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+  
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })</script>
+</body>
+</html>
